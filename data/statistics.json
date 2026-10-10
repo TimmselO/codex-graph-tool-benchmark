@@ -1,0 +1,1360 @@
+{
+  "harness_valid": {
+    "baseline": {
+      "n": 12,
+      "sum": {
+        "input": 25884146,
+        "cached": 24617600,
+        "uncached": 1266546,
+        "output": 147009,
+        "total": 26031155,
+        "seconds": 2593.64,
+        "mcp_calls": 0,
+        "command_calls": 259
+      },
+      "mean": {
+        "input": 2157012.1666666665,
+        "cached": 2051466.6666666667,
+        "uncached": 105545.5,
+        "output": 12250.75,
+        "total": 2169262.9166666665,
+        "seconds": 216.13666666666666,
+        "mcp_calls": 0,
+        "command_calls": 21.583333333333332
+      },
+      "median": {
+        "input": 1719590.5,
+        "cached": 1620544.0,
+        "uncached": 105194.5,
+        "output": 8381.5,
+        "total": 1728805.0,
+        "seconds": 195.525,
+        "mcp_calls": 0.0,
+        "command_calls": 19.0
+      },
+      "min": {
+        "input": 625947,
+        "cached": 554624,
+        "uncached": 71323,
+        "output": 5039,
+        "total": 631725,
+        "seconds": 85.56,
+        "mcp_calls": 0,
+        "command_calls": 13
+      },
+      "max": {
+        "input": 5507667,
+        "cached": 5362688,
+        "uncached": 144979,
+        "output": 28696,
+        "total": 5531478,
+        "seconds": 448.14,
+        "mcp_calls": 0,
+        "command_calls": 40
+      },
+      "sample_sd": {
+        "input": 1569411.776542457,
+        "cached": 1549834.1211990945,
+        "uncached": 23563.985341656837,
+        "output": 8294.469111456687,
+        "total": 1577219.440141269,
+        "seconds": 117.8310119954793,
+        "mcp_calls": 0.0,
+        "command_calls": 8.129165598838133
+      },
+      "cache_pct": 95.1068658011742
+    },
+    "graft": {
+      "n": 12,
+      "sum": {
+        "input": 20435358,
+        "cached": 19309440,
+        "uncached": 1125918,
+        "output": 143654,
+        "total": 20579012,
+        "seconds": 2644.34,
+        "mcp_calls": 178,
+        "command_calls": 216
+      },
+      "mean": {
+        "input": 1702946.5,
+        "cached": 1609120,
+        "uncached": 93826.5,
+        "output": 11971.166666666666,
+        "total": 1714917.6666666667,
+        "seconds": 220.36166666666668,
+        "mcp_calls": 14.833333333333334,
+        "command_calls": 18
+      },
+      "median": {
+        "input": 1054376.5,
+        "cached": 977280.0,
+        "uncached": 81320.0,
+        "output": 8787.5,
+        "total": 1063164.0,
+        "seconds": 163.3,
+        "mcp_calls": 13.0,
+        "command_calls": 16.5
+      },
+      "min": {
+        "input": 496971,
+        "cached": 442624,
+        "uncached": 54347,
+        "output": 4390,
+        "total": 501361,
+        "seconds": 106.59,
+        "mcp_calls": 4,
+        "command_calls": 4
+      },
+      "max": {
+        "input": 4333635,
+        "cached": 4194560,
+        "uncached": 162920,
+        "output": 24941,
+        "total": 4358576,
+        "seconds": 416.75,
+        "mcp_calls": 32,
+        "command_calls": 35
+      },
+      "sample_sd": {
+        "input": 1174279.5463105724,
+        "cached": 1146328.4571522644,
+        "uncached": 33486.145570695626,
+        "output": 7047.051334789006,
+        "total": 1181130.4949873108,
+        "seconds": 118.10535403407904,
+        "mcp_calls": 8.009464098896702,
+        "command_calls": 10.313274764284929
+      },
+      "cache_pct": 94.49034364849395
+    },
+    "codegraph": {
+      "n": 12,
+      "sum": {
+        "input": 29913115,
+        "cached": 28546048,
+        "uncached": 1367067,
+        "output": 143227,
+        "total": 30056342,
+        "seconds": 2682.41,
+        "mcp_calls": 92,
+        "command_calls": 219
+      },
+      "mean": {
+        "input": 2492759.5833333335,
+        "cached": 2378837.3333333335,
+        "uncached": 113922.25,
+        "output": 11935.583333333334,
+        "total": 2504695.1666666665,
+        "seconds": 223.53416666666666,
+        "mcp_calls": 7.666666666666667,
+        "command_calls": 18.25
+      },
+      "median": {
+        "input": 1584075.0,
+        "cached": 1483264.0,
+        "uncached": 100549.0,
+        "output": 7966.5,
+        "total": 1591847.0,
+        "seconds": 156.88,
+        "mcp_calls": 7.0,
+        "command_calls": 12.0
+      },
+      "min": {
+        "input": 704606,
+        "cached": 635904,
+        "uncached": 68702,
+        "output": 3704,
+        "total": 708310,
+        "seconds": 70.29,
+        "mcp_calls": 4,
+        "command_calls": 0
+      },
+      "max": {
+        "input": 7343471,
+        "cached": 7175296,
+        "uncached": 216289,
+        "output": 30607,
+        "total": 7374078,
+        "seconds": 467.01,
+        "mcp_calls": 15,
+        "command_calls": 60
+      },
+      "sample_sd": {
+        "input": 2127947.4730962724,
+        "cached": 2089187.4694928792,
+        "uncached": 45534.25879713587,
+        "output": 9443.185551288327,
+        "total": 2137034.0649351906,
+        "seconds": 159.53773127145323,
+        "mcp_calls": 3.1430539096216403,
+        "command_calls": 17.535029875288856
+      },
+      "cache_pct": 95.42987415386193
+    }
+  },
+  "all": {
+    "baseline": {
+      "n": 13,
+      "sum": {
+        "input": 27015519,
+        "cached": 25664000,
+        "uncached": 1351519,
+        "output": 152346,
+        "total": 27167865,
+        "seconds": 2740.98,
+        "mcp_calls": 0,
+        "command_calls": 277
+      },
+      "mean": {
+        "input": 2078116.8461538462,
+        "cached": 1974153.8461538462,
+        "uncached": 103963,
+        "output": 11718.923076923076,
+        "total": 2089835.7692307692,
+        "seconds": 210.8446153846154,
+        "mcp_calls": 0,
+        "command_calls": 21.307692307692307
+      },
+      "median": {
+        "input": 1487346,
+        "cached": 1372800,
+        "uncached": 103014,
+        "output": 6298,
+        "total": 1493315,
+        "seconds": 151.43,
+        "mcp_calls": 0,
+        "command_calls": 19
+      },
+      "min": {
+        "input": 625947,
+        "cached": 554624,
+        "uncached": 71323,
+        "output": 5039,
+        "total": 631725,
+        "seconds": 85.56,
+        "mcp_calls": 0,
+        "command_calls": 13
+      },
+      "max": {
+        "input": 5507667,
+        "cached": 5362688,
+        "uncached": 144979,
+        "output": 28696,
+        "total": 5531478,
+        "seconds": 448.14,
+        "mcp_calls": 0,
+        "command_calls": 40
+      },
+      "sample_sd": {
+        "input": 1529286.438650057,
+        "cached": 1509809.54376161,
+        "uncached": 23271.132389006485,
+        "output": 8169.574738641933,
+        "total": 1536988.0063217883,
+        "seconds": 114.41682827971479,
+        "mcp_calls": 0.0,
+        "command_calls": 7.84627953644927
+      },
+      "cache_pct": 94.99724954386403
+    },
+    "graft": {
+      "n": 13,
+      "sum": {
+        "input": 21280994,
+        "cached": 20064256,
+        "uncached": 1216738,
+        "output": 149711,
+        "total": 21430705,
+        "seconds": 2790.96,
+        "mcp_calls": 209,
+        "command_calls": 218
+      },
+      "mean": {
+        "input": 1636999.5384615385,
+        "cached": 1543404.3076923077,
+        "uncached": 93595.23076923077,
+        "output": 11516.23076923077,
+        "total": 1648515.7692307692,
+        "seconds": 214.68923076923076,
+        "mcp_calls": 16.076923076923077,
+        "command_calls": 16.76923076923077
+      },
+      "median": {
+        "input": 1006301,
+        "cached": 925952,
+        "uncached": 82291,
+        "output": 7977,
+        "total": 1015899,
+        "seconds": 146.62,
+        "mcp_calls": 13,
+        "command_calls": 15
+      },
+      "min": {
+        "input": 496971,
+        "cached": 442624,
+        "uncached": 54347,
+        "output": 4390,
+        "total": 501361,
+        "seconds": 106.59,
+        "mcp_calls": 4,
+        "command_calls": 2
+      },
+      "max": {
+        "input": 4333635,
+        "cached": 4194560,
+        "uncached": 162920,
+        "output": 24941,
+        "total": 4358576,
+        "seconds": 416.75,
+        "mcp_calls": 32,
+        "command_calls": 35
+      },
+      "sample_sd": {
+        "input": 1149155.532429402,
+        "cached": 1122810.9218260648,
+        "uncached": 32071.38538779246,
+        "output": 6943.564516320684,
+        "total": 1155912.2940142816,
+        "seconds": 114.91198069693303,
+        "mcp_calls": 8.88314451139102,
+        "command_calls": 10.825539602823856
+      },
+      "cache_pct": 94.28251330741412
+    },
+    "codegraph": {
+      "n": 13,
+      "sum": {
+        "input": 30558835,
+        "cached": 29143680,
+        "uncached": 1415155,
+        "output": 146934,
+        "total": 30705769,
+        "seconds": 2765.33,
+        "mcp_calls": 97,
+        "command_calls": 227
+      },
+      "mean": {
+        "input": 2350679.6153846155,
+        "cached": 2241821.5384615385,
+        "uncached": 108858.07692307692,
+        "output": 11302.615384615385,
+        "total": 2361982.230769231,
+        "seconds": 212.71769230769232,
+        "mcp_calls": 7.461538461538462,
+        "command_calls": 17.46153846153846
+      },
+      "median": {
+        "input": 1083672,
+        "cached": 981376,
+        "uncached": 99326,
+        "output": 5347,
+        "total": 1088630,
+        "seconds": 103.66,
+        "mcp_calls": 7,
+        "command_calls": 8
+      },
+      "min": {
+        "input": 645720,
+        "cached": 597632,
+        "uncached": 48088,
+        "output": 3704,
+        "total": 649427,
+        "seconds": 70.29,
+        "mcp_calls": 4,
+        "command_calls": 0
+      },
+      "max": {
+        "input": 7343471,
+        "cached": 7175296,
+        "uncached": 216289,
+        "output": 30607,
+        "total": 7374078,
+        "seconds": 467.01,
+        "mcp_calls": 15,
+        "command_calls": 60
+      },
+      "sample_sd": {
+        "input": 2100771.5413712705,
+        "cached": 2060347.5896974527,
+        "uncached": 47265.04028959378,
+        "output": 9324.75397833156,
+        "total": 2109765.187268722,
+        "seconds": 157.64584755890053,
+        "mcp_calls": 3.0988004296120946,
+        "command_calls": 17.027504145819417
+      },
+      "cache_pct": 95.36908066030658
+    }
+  },
+  "excluded_task3_run1": {
+    "baseline": {
+      "n": 1,
+      "sum": {
+        "input": 1131373,
+        "cached": 1046400,
+        "uncached": 84973,
+        "output": 5337,
+        "total": 1136710,
+        "seconds": 147.34,
+        "mcp_calls": 0,
+        "command_calls": 18
+      },
+      "mean": {
+        "input": 1131373,
+        "cached": 1046400,
+        "uncached": 84973,
+        "output": 5337,
+        "total": 1136710,
+        "seconds": 147.34,
+        "mcp_calls": 0,
+        "command_calls": 18
+      },
+      "median": {
+        "input": 1131373,
+        "cached": 1046400,
+        "uncached": 84973,
+        "output": 5337,
+        "total": 1136710,
+        "seconds": 147.34,
+        "mcp_calls": 0,
+        "command_calls": 18
+      },
+      "min": {
+        "input": 1131373,
+        "cached": 1046400,
+        "uncached": 84973,
+        "output": 5337,
+        "total": 1136710,
+        "seconds": 147.34,
+        "mcp_calls": 0,
+        "command_calls": 18
+      },
+      "max": {
+        "input": 1131373,
+        "cached": 1046400,
+        "uncached": 84973,
+        "output": 5337,
+        "total": 1136710,
+        "seconds": 147.34,
+        "mcp_calls": 0,
+        "command_calls": 18
+      },
+      "sample_sd": {
+        "input": null,
+        "cached": null,
+        "uncached": null,
+        "output": null,
+        "total": null,
+        "seconds": null,
+        "mcp_calls": null,
+        "command_calls": null
+      },
+      "cache_pct": 92.48939120873487
+    },
+    "graft": {
+      "n": 1,
+      "sum": {
+        "input": 845636,
+        "cached": 754816,
+        "uncached": 90820,
+        "output": 6057,
+        "total": 851693,
+        "seconds": 146.62,
+        "mcp_calls": 31,
+        "command_calls": 2
+      },
+      "mean": {
+        "input": 845636,
+        "cached": 754816,
+        "uncached": 90820,
+        "output": 6057,
+        "total": 851693,
+        "seconds": 146.62,
+        "mcp_calls": 31,
+        "command_calls": 2
+      },
+      "median": {
+        "input": 845636,
+        "cached": 754816,
+        "uncached": 90820,
+        "output": 6057,
+        "total": 851693,
+        "seconds": 146.62,
+        "mcp_calls": 31,
+        "command_calls": 2
+      },
+      "min": {
+        "input": 845636,
+        "cached": 754816,
+        "uncached": 90820,
+        "output": 6057,
+        "total": 851693,
+        "seconds": 146.62,
+        "mcp_calls": 31,
+        "command_calls": 2
+      },
+      "max": {
+        "input": 845636,
+        "cached": 754816,
+        "uncached": 90820,
+        "output": 6057,
+        "total": 851693,
+        "seconds": 146.62,
+        "mcp_calls": 31,
+        "command_calls": 2
+      },
+      "sample_sd": {
+        "input": null,
+        "cached": null,
+        "uncached": null,
+        "output": null,
+        "total": null,
+        "seconds": null,
+        "mcp_calls": null,
+        "command_calls": null
+      },
+      "cache_pct": 89.26015448727348
+    },
+    "codegraph": {
+      "n": 1,
+      "sum": {
+        "input": 645720,
+        "cached": 597632,
+        "uncached": 48088,
+        "output": 3707,
+        "total": 649427,
+        "seconds": 82.92,
+        "mcp_calls": 5,
+        "command_calls": 8
+      },
+      "mean": {
+        "input": 645720,
+        "cached": 597632,
+        "uncached": 48088,
+        "output": 3707,
+        "total": 649427,
+        "seconds": 82.92,
+        "mcp_calls": 5,
+        "command_calls": 8
+      },
+      "median": {
+        "input": 645720,
+        "cached": 597632,
+        "uncached": 48088,
+        "output": 3707,
+        "total": 649427,
+        "seconds": 82.92,
+        "mcp_calls": 5,
+        "command_calls": 8
+      },
+      "min": {
+        "input": 645720,
+        "cached": 597632,
+        "uncached": 48088,
+        "output": 3707,
+        "total": 649427,
+        "seconds": 82.92,
+        "mcp_calls": 5,
+        "command_calls": 8
+      },
+      "max": {
+        "input": 645720,
+        "cached": 597632,
+        "uncached": 48088,
+        "output": 3707,
+        "total": 649427,
+        "seconds": 82.92,
+        "mcp_calls": 5,
+        "command_calls": 8
+      },
+      "sample_sd": {
+        "input": null,
+        "cached": null,
+        "uncached": null,
+        "output": null,
+        "total": null,
+        "seconds": null,
+        "mcp_calls": null,
+        "command_calls": null
+      },
+      "cache_pct": 92.55280926717462
+    }
+  },
+  "task1": {
+    "baseline": {
+      "n": 3,
+      "sum": {
+        "input": 3475216,
+        "cached": 3187072,
+        "uncached": 288144,
+        "output": 16292,
+        "total": 3491508,
+        "seconds": 302.21000000000004,
+        "mcp_calls": 0,
+        "command_calls": 51
+      },
+      "mean": {
+        "input": 1158405.3333333333,
+        "cached": 1062357.3333333333,
+        "uncached": 96048,
+        "output": 5430.666666666667,
+        "total": 1163836,
+        "seconds": 100.73666666666666,
+        "mcp_calls": 0,
+        "command_calls": 17
+      },
+      "median": {
+        "input": 1213333,
+        "cached": 1123328,
+        "uncached": 90005,
+        "output": 5284,
+        "total": 1218617,
+        "seconds": 101.28,
+        "mcp_calls": 0,
+        "command_calls": 19
+      },
+      "min": {
+        "input": 774537,
+        "cached": 690944,
+        "uncached": 83593,
+        "output": 5039,
+        "total": 779576,
+        "seconds": 85.56,
+        "mcp_calls": 0,
+        "command_calls": 13
+      },
+      "max": {
+        "input": 1487346,
+        "cached": 1372800,
+        "uncached": 114546,
+        "output": 5969,
+        "total": 1493315,
+        "seconds": 115.37,
+        "mcp_calls": 0,
+        "command_calls": 19
+      },
+      "sample_sd": {
+        "input": 359564.9510788466,
+        "cached": 344992.70692194835,
+        "uncached": 16337.393886418971,
+        "output": 482.0356141752737,
+        "total": 360009.10891392734,
+        "seconds": 14.91242546782157,
+        "mcp_calls": 0.0,
+        "command_calls": 3.4641016151377544
+      },
+      "cache_pct": 91.70860170993687
+    },
+    "graft": {
+      "n": 3,
+      "sum": {
+        "input": 2499604,
+        "cached": 2300672,
+        "uncached": 198932,
+        "output": 18923,
+        "total": 2518527,
+        "seconds": 373.51,
+        "mcp_calls": 51,
+        "command_calls": 41
+      },
+      "mean": {
+        "input": 833201.3333333334,
+        "cached": 766890.6666666666,
+        "uncached": 66310.66666666667,
+        "output": 6307.666666666667,
+        "total": 839509,
+        "seconds": 124.50333333333334,
+        "mcp_calls": 17,
+        "command_calls": 13.666666666666666
+      },
+      "median": {
+        "input": 900181,
+        "cached": 829440,
+        "uncached": 70741,
+        "output": 6556,
+        "total": 906737,
+        "seconds": 133.34,
+        "mcp_calls": 13,
+        "command_calls": 9
+      },
+      "min": {
+        "input": 496971,
+        "cached": 442624,
+        "uncached": 54347,
+        "output": 4390,
+        "total": 501361,
+        "seconds": 106.59,
+        "mcp_calls": 12,
+        "command_calls": 4
+      },
+      "max": {
+        "input": 1102452,
+        "cached": 1028608,
+        "uncached": 73844,
+        "output": 7977,
+        "total": 1110429,
+        "seconds": 133.58,
+        "mcp_calls": 26,
+        "command_calls": 28
+      },
+      "sample_sd": {
+        "input": 308247.49333990266,
+        "cached": 297957.4237862405,
+        "uncached": 10476.36112079635,
+        "output": 1806.3483421902138,
+        "total": 310049.44790145976,
+        "seconds": 15.513865841025357,
+        "mcp_calls": 7.810249675906654,
+        "command_calls": 12.662279942148386
+      },
+      "cache_pct": 92.04145936716375
+    },
+    "codegraph": {
+      "n": 3,
+      "sum": {
+        "input": 2834726,
+        "cached": 2587776,
+        "uncached": 246950,
+        "output": 14279,
+        "total": 2849005,
+        "seconds": 262.35,
+        "mcp_calls": 31,
+        "command_calls": 14
+      },
+      "mean": {
+        "input": 944908.6666666666,
+        "cached": 862592,
+        "uncached": 82316.66666666667,
+        "output": 4759.666666666667,
+        "total": 949668.3333333334,
+        "seconds": 87.45,
+        "mcp_calls": 10.333333333333334,
+        "command_calls": 4.666666666666667
+      },
+      "median": {
+        "input": 978351,
+        "cached": 886400,
+        "uncached": 82650,
+        "output": 4472,
+        "total": 982811,
+        "seconds": 86.05,
+        "mcp_calls": 8,
+        "command_calls": 6
+      },
+      "min": {
+        "input": 816285,
+        "cached": 743936,
+        "uncached": 72349,
+        "output": 4460,
+        "total": 820757,
+        "seconds": 81.79,
+        "mcp_calls": 8,
+        "command_calls": 0
+      },
+      "max": {
+        "input": 1040090,
+        "cached": 957440,
+        "uncached": 91951,
+        "output": 5347,
+        "total": 1045437,
+        "seconds": 94.51,
+        "mcp_calls": 15,
+        "command_calls": 8
+      },
+      "sample_sd": {
+        "input": 115589.62648236792,
+        "cached": 108724.90584957984,
+        "uncached": 9805.250345265711,
+        "output": 508.68097402333945,
+        "total": 115948.70790713165,
+        "seconds": 6.4745347323186095,
+        "mcp_calls": 4.041451884327381,
+        "command_calls": 4.163331998932265
+      },
+      "cache_pct": 91.288399654852
+    }
+  },
+  "task2": {
+    "baseline": {
+      "n": 3,
+      "sum": {
+        "input": 2670832,
+        "cached": 2389120,
+        "uncached": 281712,
+        "output": 18239,
+        "total": 2689071,
+        "seconds": 397.36,
+        "mcp_calls": 0,
+        "command_calls": 43
+      },
+      "mean": {
+        "input": 890277.3333333334,
+        "cached": 796373.3333333334,
+        "uncached": 93904,
+        "output": 6079.666666666667,
+        "total": 896357,
+        "seconds": 132.45333333333335,
+        "mcp_calls": 0,
+        "command_calls": 14.333333333333334
+      },
+      "median": {
+        "input": 949222,
+        "cached": 846208,
+        "uncached": 103014,
+        "output": 6163,
+        "total": 955385,
+        "seconds": 145.37,
+        "mcp_calls": 0,
+        "command_calls": 14
+      },
+      "min": {
+        "input": 625947,
+        "cached": 554624,
+        "uncached": 71323,
+        "output": 5778,
+        "total": 631725,
+        "seconds": 100.56,
+        "mcp_calls": 0,
+        "command_calls": 13
+      },
+      "max": {
+        "input": 1095663,
+        "cached": 988288,
+        "uncached": 107375,
+        "output": 6298,
+        "total": 1101961,
+        "seconds": 151.43,
+        "mcp_calls": 0,
+        "command_calls": 16
+      },
+      "sample_sd": {
+        "input": 240341.7056200054,
+        "cached": 221085.36072144925,
+        "uncached": 19676.909081458907,
+        "output": 269.8301935168363,
+        "total": 240611.10222099064,
+        "seconds": 27.78613743098046,
+        "mcp_calls": 0.0,
+        "command_calls": 1.5275252316519468
+      },
+      "cache_pct": 89.45227554559779
+    },
+    "graft": {
+      "n": 3,
+      "sum": {
+        "input": 2576050,
+        "cached": 2356096,
+        "uncached": 219954,
+        "output": 20110,
+        "total": 2596160,
+        "seconds": 358.98,
+        "mcp_calls": 68,
+        "command_calls": 27
+      },
+      "mean": {
+        "input": 858683.3333333334,
+        "cached": 785365.3333333334,
+        "uncached": 73318,
+        "output": 6703.333333333333,
+        "total": 865386.6666666666,
+        "seconds": 119.66,
+        "mcp_calls": 22.666666666666668,
+        "command_calls": 9
+      },
+      "median": {
+        "input": 882788,
+        "cached": 808832,
+        "uncached": 73051,
+        "output": 6904,
+        "total": 888992,
+        "seconds": 120.72,
+        "mcp_calls": 18,
+        "command_calls": 9
+      },
+      "min": {
+        "input": 802139,
+        "cached": 729088,
+        "uncached": 64612,
+        "output": 6204,
+        "total": 809141,
+        "seconds": 115.71,
+        "mcp_calls": 18,
+        "command_calls": 6
+      },
+      "max": {
+        "input": 891123,
+        "cached": 818176,
+        "uncached": 82291,
+        "output": 7002,
+        "total": 898027,
+        "seconds": 122.55,
+        "mcp_calls": 32,
+        "command_calls": 12
+      },
+      "sample_sd": {
+        "input": 49145.847030378194,
+        "cached": 48961.0178543434,
+        "uncached": 8842.523791316595,
+        "output": 435.20263479594576,
+        "total": 48919.209624986106,
+        "seconds": 3.541059163583689,
+        "mcp_calls": 8.082903768654761,
+        "command_calls": 3.0
+      },
+      "cache_pct": 91.46157877370392
+    },
+    "codegraph": {
+      "n": 3,
+      "sum": {
+        "input": 2694841,
+        "cached": 2432768,
+        "uncached": 262073,
+        "output": 13431,
+        "total": 2708272,
+        "seconds": 260.29,
+        "mcp_calls": 25,
+        "command_calls": 17
+      },
+      "mean": {
+        "input": 898280.3333333334,
+        "cached": 810922.6666666666,
+        "uncached": 87357.66666666667,
+        "output": 4477,
+        "total": 902757.3333333334,
+        "seconds": 86.76333333333334,
+        "mcp_calls": 8.333333333333334,
+        "command_calls": 5.666666666666667
+      },
+      "median": {
+        "input": 906563,
+        "cached": 815488,
+        "uncached": 91075,
+        "output": 4769,
+        "total": 911332,
+        "seconds": 86.34,
+        "mcp_calls": 7,
+        "command_calls": 6
+      },
+      "min": {
+        "input": 704606,
+        "cached": 635904,
+        "uncached": 68702,
+        "output": 3704,
+        "total": 708310,
+        "seconds": 70.29,
+        "mcp_calls": 6,
+        "command_calls": 4
+      },
+      "max": {
+        "input": 1083672,
+        "cached": 981376,
+        "uncached": 102296,
+        "output": 4958,
+        "total": 1088630,
+        "seconds": 103.66,
+        "mcp_calls": 12,
+        "command_calls": 7
+      },
+      "sample_sd": {
+        "input": 189668.68485423032,
+        "cached": 172781.24145095536,
+        "uncached": 17102.72300931443,
+        "output": 676.0747000147247,
+        "total": 190304.9376167979,
+        "seconds": 16.689027333350893,
+        "mcp_calls": 3.2145502536643185,
+        "command_calls": 1.5275252316519468
+      },
+      "cache_pct": 90.27501065925595
+    }
+  },
+  "task3": {
+    "baseline": {
+      "n": 3,
+      "sum": {
+        "input": 6219569,
+        "cached": 5929216,
+        "uncached": 290353,
+        "output": 38586,
+        "total": 6258155,
+        "seconds": 783.54,
+        "mcp_calls": 0,
+        "command_calls": 69
+      },
+      "mean": {
+        "input": 2073189.6666666667,
+        "cached": 1976405.3333333333,
+        "uncached": 96784.33333333333,
+        "output": 12862,
+        "total": 2086051.6666666667,
+        "seconds": 261.18,
+        "mcp_calls": 0,
+        "command_calls": 23
+      },
+      "median": {
+        "input": 2100950,
+        "cached": 2013440,
+        "uncached": 87510,
+        "output": 12460,
+        "total": 2116611,
+        "seconds": 254.69,
+        "mcp_calls": 0,
+        "command_calls": 23
+      },
+      "min": {
+        "input": 1951835,
+        "cached": 1868288,
+        "uncached": 83547,
+        "output": 10465,
+        "total": 1964295,
+        "seconds": 239.62,
+        "mcp_calls": 0,
+        "command_calls": 19
+      },
+      "max": {
+        "input": 2166784,
+        "cached": 2047488,
+        "uncached": 119296,
+        "output": 15661,
+        "total": 2177249,
+        "seconds": 289.23,
+        "mcp_calls": 0,
+        "command_calls": 27
+      },
+      "sample_sd": {
+        "input": 110130.58262959174,
+        "cached": 95167.40461593629,
+        "uncached": 19596.114266183828,
+        "output": 2621.2224247476597,
+        "total": 109716.70870625555,
+        "seconds": 25.43379837932196,
+        "mcp_calls": 0.0,
+        "command_calls": 4.0
+      },
+      "cache_pct": 95.33162185354001
+    },
+    "graft": {
+      "n": 3,
+      "sum": {
+        "input": 5532102,
+        "cached": 5257088,
+        "uncached": 275014,
+        "output": 37850,
+        "total": 5569952,
+        "seconds": 758.08,
+        "mcp_calls": 18,
+        "command_calls": 70
+      },
+      "mean": {
+        "input": 1844034,
+        "cached": 1752362.6666666667,
+        "uncached": 91671.33333333333,
+        "output": 12616.666666666666,
+        "total": 1856650.6666666667,
+        "seconds": 252.69333333333336,
+        "mcp_calls": 6,
+        "command_calls": 23.333333333333332
+      },
+      "median": {
+        "input": 2064341,
+        "cached": 1973632,
+        "uncached": 90709,
+        "output": 12423,
+        "total": 2076764,
+        "seconds": 238.83,
+        "mcp_calls": 6,
+        "command_calls": 26
+      },
+      "min": {
+        "input": 1006301,
+        "cached": 925952,
+        "uncached": 80349,
+        "output": 9598,
+        "total": 1015899,
+        "seconds": 193.02,
+        "mcp_calls": 4,
+        "command_calls": 15
+      },
+      "max": {
+        "input": 2461460,
+        "cached": 2357504,
+        "uncached": 103956,
+        "output": 15829,
+        "total": 2477289,
+        "seconds": 326.23,
+        "mcp_calls": 8,
+        "command_calls": 29
+      },
+      "sample_sd": {
+        "input": 752179.0408586243,
+        "cached": 740982.7059934215,
+        "uncached": 11832.885376497708,
+        "output": 3120.0112713471617,
+        "total": 755150.7085730195,
+        "seconds": 67.67843107913579,
+        "mcp_calls": 2.0,
+        "command_calls": 7.371114795831994
+      },
+      "cache_pct": 95.02876121951476
+    },
+    "codegraph": {
+      "n": 3,
+      "sum": {
+        "input": 9110379,
+        "cached": 8692992,
+        "uncached": 417387,
+        "output": 39128,
+        "total": 9149507,
+        "seconds": 809.34,
+        "mcp_calls": 18,
+        "command_calls": 73
+      },
+      "mean": {
+        "input": 3036793,
+        "cached": 2897664,
+        "uncached": 139129,
+        "output": 13042.666666666666,
+        "total": 3049835.6666666665,
+        "seconds": 269.78,
+        "mcp_calls": 6,
+        "command_calls": 24.333333333333332
+      },
+      "median": {
+        "input": 2299532,
+        "cached": 2197760,
+        "uncached": 101772,
+        "output": 11694,
+        "total": 2311226,
+        "seconds": 281.89,
+        "mcp_calls": 6,
+        "command_calls": 19
+      },
+      "min": {
+        "input": 2084478,
+        "cached": 1985152,
+        "uncached": 99326,
+        "output": 10586,
+        "total": 2095064,
+        "seconds": 210.1,
+        "mcp_calls": 5,
+        "command_calls": 16
+      },
+      "max": {
+        "input": 4726369,
+        "cached": 4510080,
+        "uncached": 216289,
+        "output": 16848,
+        "total": 4743217,
+        "seconds": 317.35,
+        "mcp_calls": 7,
+        "command_calls": 38
+      },
+      "sample_sd": {
+        "input": 1467161.3239725889,
+        "cached": 1400433.703610421,
+        "uncached": 66833.71102220795,
+        "output": 3341.7566238930885,
+        "total": 1470488.6118642108,
+        "seconds": 54.64091598792979,
+        "mcp_calls": 1.0,
+        "command_calls": 11.930353445448853
+      },
+      "cache_pct": 95.41855503486737
+    }
+  },
+  "task4": {
+    "baseline": {
+      "n": 3,
+      "sum": {
+        "input": 13518529,
+        "cached": 13112192,
+        "uncached": 406337,
+        "output": 73892,
+        "total": 13592421,
+        "seconds": 1110.53,
+        "mcp_calls": 0,
+        "command_calls": 96
+      },
+      "mean": {
+        "input": 4506176.333333333,
+        "cached": 4370730.666666667,
+        "uncached": 135445.66666666666,
+        "output": 24630.666666666668,
+        "total": 4530807,
+        "seconds": 370.1766666666667,
+        "mcp_calls": 0,
+        "command_calls": 32
+      },
+      "median": {
+        "input": 4641221,
+        "cached": 4498176,
+        "uncached": 143045,
+        "output": 23811,
+        "total": 4669917,
+        "seconds": 363.55,
+        "mcp_calls": 0,
+        "command_calls": 31
+      },
+      "min": {
+        "input": 3369641,
+        "cached": 3251328,
+        "uncached": 118313,
+        "output": 21385,
+        "total": 3391026,
+        "seconds": 298.84,
+        "mcp_calls": 0,
+        "command_calls": 25
+      },
+      "max": {
+        "input": 5507667,
+        "cached": 5362688,
+        "uncached": 144979,
+        "output": 28696,
+        "total": 5531478,
+        "seconds": 448.14,
+        "mcp_calls": 0,
+        "command_calls": 40
+      },
+      "sample_sd": {
+        "input": 1075391.3662780325,
+        "cached": 1061433.9344214192,
+        "uncached": 14868.802552099927,
+        "output": 3723.784410157674,
+        "total": 1076985.322625615,
+        "seconds": 74.87026801964404,
+        "mcp_calls": 0.0,
+        "command_calls": 7.54983443527075
+      },
+      "cache_pct": 96.99422178256228
+    },
+    "graft": {
+      "n": 3,
+      "sum": {
+        "input": 9827602,
+        "cached": 9395584,
+        "uncached": 432018,
+        "output": 66771,
+        "total": 9894373,
+        "seconds": 1153.77,
+        "mcp_calls": 41,
+        "command_calls": 78
+      },
+      "mean": {
+        "input": 3275867.3333333335,
+        "cached": 3131861.3333333335,
+        "uncached": 144006,
+        "output": 22257,
+        "total": 3298124.3333333335,
+        "seconds": 384.59,
+        "mcp_calls": 13.666666666666666,
+        "command_calls": 26
+      },
+      "median": {
+        "input": 3117031,
+        "cached": 2987008,
+        "uncached": 139075,
+        "output": 23257,
+        "total": 3140288,
+        "seconds": 378.03,
+        "mcp_calls": 13,
+        "command_calls": 25
+      },
+      "min": {
+        "input": 2376936,
+        "cached": 2214016,
+        "uncached": 130023,
+        "output": 18573,
+        "total": 2395509,
+        "seconds": 358.99,
+        "mcp_calls": 12,
+        "command_calls": 18
+      },
+      "max": {
+        "input": 4333635,
+        "cached": 4194560,
+        "uncached": 162920,
+        "output": 24941,
+        "total": 4358576,
+        "seconds": 416.75,
+        "mcp_calls": 16,
+        "command_calls": 35
+      },
+      "sample_sd": {
+        "input": 987972.4083902006,
+        "cached": 998186.1049510423,
+        "uncached": 16993.799545716665,
+        "output": 3299.675135524708,
+        "total": 991005.6723916031,
+        "seconds": 29.43347753834059,
+        "mcp_calls": 2.0816659994661326,
+        "command_calls": 8.54400374531753
+      },
+      "cache_pct": 95.60403443281484
+    },
+    "codegraph": {
+      "n": 3,
+      "sum": {
+        "input": 15273169,
+        "cached": 14832512,
+        "uncached": 440657,
+        "output": 76389,
+        "total": 15349558,
+        "seconds": 1350.4299999999998,
+        "mcp_calls": 18,
+        "command_calls": 115
+      },
+      "mean": {
+        "input": 5091056.333333333,
+        "cached": 4944170.666666667,
+        "uncached": 146885.66666666666,
+        "output": 25463,
+        "total": 5116519.333333333,
+        "seconds": 450.1433333333333,
+        "mcp_calls": 6,
+        "command_calls": 38.333333333333336
+      },
+      "median": {
+        "input": 4923999,
+        "cached": 4755072,
+        "uncached": 168175,
+        "output": 27551,
+        "total": 4951550,
+        "seconds": 461.58,
+        "mcp_calls": 5,
+        "command_calls": 29
+      },
+      "min": {
+        "input": 3005699,
+        "cached": 2902144,
+        "uncached": 103555,
+        "output": 18231,
+        "total": 3023930,
+        "seconds": 421.84,
+        "mcp_calls": 4,
+        "command_calls": 26
+      },
+      "max": {
+        "input": 7343471,
+        "cached": 7175296,
+        "uncached": 168927,
+        "output": 30607,
+        "total": 7374078,
+        "seconds": 467.01,
+        "mcp_calls": 9,
+        "command_calls": 60
+      },
+      "sample_sd": {
+        "input": 2173705.9588319054,
+        "cached": 2142842.9090993428,
+        "uncached": 37527.34178346947,
+        "output": 6446.793931870321,
+        "total": 2179761.0112536037,
+        "seconds": 24.661310454502082,
+        "mcp_calls": 2.6457513110645907,
+        "command_calls": 18.823743871327334
+      },
+      "cache_pct": 97.11482928002695
+    }
+  }
+}
