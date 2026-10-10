@@ -1,0 +1,64 @@
+PUBLICATION NOTE: Personal paths, repository identifiers and application names have been sanitized. Numerical measurements and MCP call lists are unchanged.
+
+TASK="Trace map export through the runtime
+Do not modify any code."
+
+RunId=1
+
+
+=== Running: baseline ===
+SUCCESS: baseline
+{
+  "input": 949222,
+  "cached": 846208,
+  "output": 6163,
+  "total": 955385
+}
+Seconds: 151.43
+MCP calls:
+
+=== Running: graft ===
+SUCCESS: graft
+{
+  "input": 891123,
+  "cached": 808832,
+  "output": 6904,
+  "total": 898027
+}
+Seconds: 120.72
+MCP calls:
+graft   graft_find_code completed
+graft   graft_check_freshness   completed
+graft   graft_find_all  completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_find_code completed
+graft   graft_trace_calls       completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_trace_calls       completed
+
+=== Running: codegraph ===
+SUCCESS: codegraph
+{
+  "input": 704606,
+  "cached": 635904,
+  "output": 3704,
+  "total": 708310
+}
+Seconds: 70.29
+MCP calls:
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed

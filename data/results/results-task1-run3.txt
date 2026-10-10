@@ -1,0 +1,61 @@
+PUBLICATION NOTE: Personal paths, repository identifiers and application names have been sanitized. Numerical measurements and MCP call lists are unchanged.
+
+TASK="Trace how a station action is transformed into a VDA 5050 order.
+Identify the relevant functions and files.
+Do not modify any code."
+
+RunId=3
+
+=== Running: baseline ===
+SUCCESS: baseline
+{
+  "input": 1213333,
+  "cached": 1123328,
+  "output": 5284,
+  "total": 1218617
+}
+Seconds: 101.28
+MCP calls:
+
+=== Running: graft ===
+SUCCESS: graft
+{
+  "input": 496971,
+  "cached": 442624,
+  "output": 4390,
+  "total": 501361
+}
+Seconds: 106.59
+MCP calls:
+graft   graft_check_freshness   completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_file_api  completed
+graft   graft_find_code completed
+graft   graft_find_all  completed
+graft   graft_find_all  completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+
+=== Running: codegraph ===
+SUCCESS: codegraph
+{
+  "input": 816285,
+  "cached": 743936,
+  "output": 4472,
+  "total": 820757
+}
+Seconds: 86.05
+MCP calls:
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed

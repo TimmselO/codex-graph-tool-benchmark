@@ -1,0 +1,99 @@
+PUBLICATION NOTE: Personal paths, repository identifiers and application names have been sanitized. Numerical measurements and MCP call lists are unchanged.
+
+TASK="when the map workspace inspector for layouts is open, users have to click "Back to object properties" remove that button. a right click or ESC should close the inspector window"
+
+RunId=4
+
+benchmark-user@benchmark-host:~/context-benchmark$ bash compare\ script-task3.sh
+Results: /benchmark/results/20261010-175513-rQvH
+Base commit: CASE_STUDY_BASE_COMMIT
+Model: gpt-5.6-sol
+Effort: high
+
+========================================
+Running: baseline
+========================================
+Restoring baseline to CASE_STUDY_BASE_COMMIT
+HEAD restored to the shared case-study revision [commit description redacted]
+Lösche dist/
+Lösche test-results/
+VALID RUN: baseline
+{
+  "input": 2100950,
+  "cached": 2013440,
+  "output": 15661,
+  "total": 2116611
+}
+Seconds: 289.23
+MCP calls:
+Saved patch: /benchmark/results/20261010-175513-rQvH/baseline.patch
+
+========================================
+Running: graft
+========================================
+Restoring graft to CASE_STUDY_BASE_COMMIT
+HEAD restored to the shared case-study revision [commit description redacted]
+Lösche dist/
+Lösche test-results/
+parsing 291/291: vitest.config.ts
+✓ wiring: 1541 nodes (908 function, 291 file, 159 method, 152 type, 29 class, 2 interface), 6181 edges, 291 cards [javascript, python, tsx, typescript]
+  parsed: 0 of 291 files (291 replayed from cache)
+  → /benchmark/graft/graft
+  graft/ is git-ignored (added automatically) — a local cache; teammates run `graft build` to get their own.
+VALID RUN: graft
+{
+  "input": 2461460,
+  "cached": 2357504,
+  "output": 15829,
+  "total": 2477289
+}
+Seconds: 326.23
+MCP calls:
+graft   graft_find_code completed
+graft   graft_check_freshness   completed
+graft   graft_find_code completed
+graft   graft_check_freshness   completed
+Saved patch: /benchmark/results/20261010-175513-rQvH/graft.patch
+
+========================================
+Running: codegraph
+========================================
+Restoring codegraph to CASE_STUDY_BASE_COMMIT
+HEAD restored to the shared case-study revision [commit description redacted]
+Lösche dist/
+Lösche test-results/
+┌  Syncing CodeGraph
+│
+│  ◆ Scanning files
+│  ◆ Parsing code — done
+│  ◆ Resolving refs — done
+│  ◆ Linking dynamic dispatch — done
+│
+◆  Synced 5 changed files
+│
+●  Modified: 5 — 111 nodes in 82ms
+│
+└  Done
+
+VALID RUN: codegraph
+{
+  "input": 2299532,
+  "cached": 2197760,
+  "output": 11694,
+  "total": 2311226
+}
+Seconds: 210.10
+MCP calls:
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+Saved patch: /benchmark/results/20261010-175513-rQvH/codegraph.patch
+
+========================================
+Benchmark completed
+========================================
+Results saved to: /benchmark/results/20261010-175513-rQvH

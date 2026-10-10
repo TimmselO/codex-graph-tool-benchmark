@@ -1,0 +1,75 @@
+PUBLICATION NOTE: Personal paths, repository identifiers and application names have been sanitized. Numerical measurements and MCP call lists are unchanged.
+
+TASK="when the map workspace inspector for layouts is open, users have to click "Back to object properties" remove that button. a right click or ESC should close the inspector window"
+
+RunId=1 failed?
+
+
+=== Running: baseline ===
+SUCCESS: baseline
+{
+  "input": 1131373,
+  "cached": 1046400,
+  "output": 5337,
+  "total": 1136710
+}
+Seconds: 147.34
+MCP calls:
+
+=== Running: graft ===
+SUCCESS: graft
+{
+  "input": 845636,
+  "cached": 754816,
+  "output": 6057,
+  "total": 851693
+}
+Seconds: 146.62
+MCP calls:
+graft   graft_find_code completed
+graft   graft_check_freshness   completed
+graft   graft_find_all  completed
+graft   graft_find_all  completed
+graft   graft_find_all  completed
+graft   graft_trace_calls       completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_trace_calls       completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_trace_calls       completed
+graft   graft_find_code completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_find_code completed
+graft   graft_find_all  completed
+graft   graft_find_code completed
+graft   graft_find_all  completed
+graft   graft_find_all  completed
+graft   graft_find_all  completed
+graft   graft_find_all  completed
+graft   graft_find_all  completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+
+=== Running: codegraph ===
+SUCCESS: codegraph
+{
+  "input": 645720,
+  "cached": 597632,
+  "output": 3707,
+  "total": 649427
+}
+Seconds: 82.92
+MCP calls:
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed

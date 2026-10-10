@@ -1,0 +1,105 @@
+PUBLICATION NOTE: Personal paths, repository identifiers and application names have been sanitized. Numerical measurements and MCP call lists are unchanged.
+
+TASK="wI want to be able to import and export a application project in the native format and transfer a project from one instance to the other."
+
+RunId=1
+
+benchmark-user@benchmark-host:~/context-benchmark$ bash compare\ script-task4.sh
+Results: /benchmark/results/20261010-213636-9AKZ
+Base commit: CASE_STUDY_BASE_COMMIT
+Model: gpt-5.6-sol
+Effort: high
+
+========================================
+Running: baseline
+========================================
+Restoring baseline to CASE_STUDY_BASE_COMMIT
+HEAD restored to the shared case-study revision [commit description redacted]
+Lösche dist/
+Lösche test-results/
+VALID RUN: baseline
+{
+  "input": 4641221,
+  "cached": 4498176,
+  "output": 28696,
+  "total": 4669917
+}
+Seconds: 448.14
+MCP calls:
+Saved patch: /benchmark/results/20261010-213636-9AKZ/baseline.patch
+
+========================================
+Running: graft
+========================================
+Restoring graft to CASE_STUDY_BASE_COMMIT
+HEAD restored to the shared case-study revision [commit description redacted]
+Lösche dist/
+Lösche test-results/
+parsing 291/291: vitest.config.ts
+✓ wiring: 1541 nodes (908 function, 291 file, 159 method, 152 type, 29 class, 2 interface), 6181 edges, 291 cards [javascript, python, tsx, typescript]
+  parsed: 0 of 291 files (291 replayed from cache)
+  → /benchmark/graft/graft
+  graft/ is git-ignored (added automatically) — a local cache; teammates run `graft build` to get their own.
+VALID RUN: graft
+{
+  "input": 2376936,
+  "cached": 2214016,
+  "output": 18573,
+  "total": 2395509
+}
+Seconds: 416.75
+MCP calls:
+graft   graft_find_code completed
+graft   graft_repo_map  completed
+graft   graft_find_code completed
+graft   graft_find_all  completed
+graft   graft_find_code completed
+graft   graft_file_api  completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_file_api  completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_check_freshness   completed
+Saved patch: /benchmark/results/20261010-213636-9AKZ/graft.patch
+
+========================================
+Running: codegraph
+========================================
+Restoring codegraph to CASE_STUDY_BASE_COMMIT
+HEAD restored to the shared case-study revision [commit description redacted]
+Lösche dist/
+Lösche test-results/
+┌  Syncing CodeGraph
+│
+│  ◆ Scanning files
+│  ◆ Parsing code — done
+│  ◆ Resolving refs — done
+│  ◆ Linking dynamic dispatch — done
+│
+◆  Synced 6 changed files
+│
+●  Modified: 6 — 119 nodes in 82ms
+│
+└  Done
+
+VALID RUN: codegraph
+{
+  "input": 3005699,
+  "cached": 2902144,
+  "output": 18231,
+  "total": 3023930
+}
+Seconds: 467.01
+MCP calls:
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+Saved patch: /benchmark/results/20261010-213636-9AKZ/codegraph.patch
+
+========================================
+Benchmark completed
+========================================
+Results saved to: /benchmark/results/20261010-213636-9AKZ

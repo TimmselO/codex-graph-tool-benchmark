@@ -1,0 +1,85 @@
+PUBLICATION NOTE: Personal paths, repository identifiers and application names have been sanitized. Numerical measurements and MCP call lists are unchanged.
+
+TASK="Trace how a station action is transformed into a VDA 5050 order.
+Identify the relevant functions and files.
+Do not modify any code."
+
+RunId=2
+
+
+=== Running: baseline ===
+SUCCESS: baseline
+{
+  "input": 1487346,
+  "cached": 1372800,
+  "output": 5969,
+  "total": 1493315
+}
+Seconds: 115.37
+MCP calls:
+
+=== Running: graft ===
+SUCCESS: graft
+{
+  "input": 1102452,
+  "cached": 1028608,
+  "output": 7977,
+  "total": 1110429
+}
+Seconds: 133.34
+MCP calls:
+graft   graft_check_freshness   completed
+graft   graft_repo_map  completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+graft   graft_file_api  completed
+graft   graft_file_api  completed
+graft   graft_file_api  completed
+graft   graft_file_api  completed
+graft   graft_file_api  completed
+graft   graft_file_api  completed
+graft   graft_file_api  completed
+graft   graft_file_api  completed
+graft   graft_file_api  completed
+graft   graft_find_code completed
+graft   graft_find_all  completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_trace_calls       completed
+graft   graft_find_code completed
+graft   graft_find_code completed
+
+=== Running: codegraph ===
+SUCCESS: codegraph
+{
+  "input": 978351,
+  "cached": 886400,
+  "output": 4460,
+  "total": 982811
+}
+Seconds: 81.79
+MCP calls:
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+codegraph       codegraph_explore       completed
+
+Results saved to: /benchmark/results/20261010-161000-Q1p9
+benchmark-user@benchmark-host:~$
